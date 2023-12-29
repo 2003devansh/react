@@ -19,12 +19,11 @@ function App() {
   return (
     <>
       <div>
-        <h1> hi i am a student</h1>
+        <h1>Nigga this is a counter!!!</h1>
         <h2>counter value {counter}</h2>
-        <button
+        <button id='addbtn'
          onClick={addValue}>Add</button>
-        <br></br>
-        <button onClick={decvalue}>dec</button>
+        <button id='decbtn' onClick={decvalue}>dec</button>
       </div>
       
     </>
