@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.pass{
+    text-align: center;
+    width: 100%; /* w-full */
+    max-width: 28rem; /* max-w-md */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+    border-radius: 0.375rem; /* rounded-lg */
+    padding: 1rem; /* px-4 */
+    margin-top: 2rem; /* my-8 */
+    margin-bottom: 2rem; /* my-8 */
+    color: #ff9800; /* text-orange */
+    background-color: #374151; /* bg-gray-700 */
+}
+.pass > h1{
+    color: #ffffff; /* text-white */
+  text-align: center; /* text-center */
+}
+.innerdiv{
+    display: flex; /* flex */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow */
+    border-radius: 0.375rem; /* rounded-lg */
+    overflow: hidden; /* overflow-hidden */
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+.innerdiv> input{
+    outline: none;      /* Corresponds to outline-none in Tailwind */
+  width: 100%;        /* Corresponds to w-full in Tailwind */
+  padding-top: 0.25rem; /* Corresponds to py-1 in Tailwind */
+  padding-bottom: 0.25rem; /* Corresponds to py-1 in Tailwind */
+  padding-left: 0.75rem;  /* Corresponds to px-3 in Tailwind */
+  padding-right: 0.75rem; /* Corresponds to px-3 in Tailwind */
+}
+
+
+.btn{
+    outline: none;           /* Corresponds to outline-none in Tailwind */
+  background-color: #1a365d; /* The color corresponding to bg-blue-700 in Tailwind */
+  color: #ffffff;           /* The color corresponding to text-white in Tailwind */
+  padding-left: 0.75rem;    /* Corresponds to px-3 in Tailwind */
+  padding-right: 0.75rem;   /* Corresponds to px-3 in Tailwind */
+  padding-top: 0.125rem;     /* Corresponds to py-0.5 in Tailwind */
+  padding-bottom: 0.125rem;  /* Corresponds to py-0.5 in Tailwind */
+  flex-shrink: 0;   
+}
+
